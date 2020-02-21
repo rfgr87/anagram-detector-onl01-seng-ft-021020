@@ -11,9 +11,8 @@ class Anagram
     list_of_words.each do |x|
       if @word.split("").sort == x.split("").sort
         @a << x
-      else
-        @a
       end
     end
+    @a
   end
 end 
